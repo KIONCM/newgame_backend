@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    class RegisterModel
+  public class RegisterModel
     {
         [Required(ErrorMessage ="Username is required!")]
         public string  Username { get; set; }

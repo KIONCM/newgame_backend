@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    class UserRoles
+    public class UserRoles
     {
         public const string Admin = "Admin";
         public const string Gamer = "Gamer";

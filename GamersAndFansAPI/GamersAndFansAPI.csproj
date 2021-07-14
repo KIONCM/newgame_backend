@@ -16,7 +16,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="Domain\Services\" />
     <Folder Include="Mapping\" />
-    <Folder Include="Extentions\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    class Score
+    public class Score
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
