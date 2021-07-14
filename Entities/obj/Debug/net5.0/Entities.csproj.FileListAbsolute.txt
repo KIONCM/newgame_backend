@@ -1,0 +1,15 @@
+K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.deps.json
+K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.runtimeconfig.json
+K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.runtimeconfig.dev.json
+K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.dll
+K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\ref\Entities.dll
+K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.pdb
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.dll
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\ref\Entities.dll
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.pdb
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.genruntimeconfig.cache

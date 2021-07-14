@@ -1,0 +1,12 @@
+K:\Api's\GamersAndFansAPI\LoggerService\bin\Debug\net5.0\LoggerService.deps.json
+K:\Api's\GamersAndFansAPI\LoggerService\bin\Debug\net5.0\LoggerService.dll
+K:\Api's\GamersAndFansAPI\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
+K:\Api's\GamersAndFansAPI\LoggerService\bin\Debug\net5.0\LoggerService.pdb
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\LoggerService.dll
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\ref\LoggerService.dll
+K:\Api's\GamersAndFansAPI\LoggerService\obj\Debug\net5.0\LoggerService.pdb
