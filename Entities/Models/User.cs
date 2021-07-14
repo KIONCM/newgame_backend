@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    class User:IdentityUser
+   public class User:IdentityUser
     {
         public string Firstname { get; set; }
         public string LastName { get; set; }

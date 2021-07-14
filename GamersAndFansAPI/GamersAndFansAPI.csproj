@@ -17,7 +17,10 @@
     <Folder Include="Domain\Services\" />
     <Folder Include="Mapping\" />
     <Folder Include="Extentions\" />
-    <Folder Include="Persistance\Context\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
   </ItemGroup>
 
 </Project>
