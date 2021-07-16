@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Contract.Authentication;
 using Entities.Models;
+using Entities.DataTransfareObjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -36,6 +37,24 @@ namespace GamersAndFansAPI.Controllers
             return RoleManager.Roles.ToList();
         }
 
+        [HttpPost]
+        public async Task<IActionResult>RegisterUsre([FromBody]RegisterUserDTO registerUserDTO)
+        {
+            var user = Mapper.Map<User>(registerUserDTO);
+            var resualt = await UserManager.CreateAsync(user, registerUserDTO.Password);
+            if (!resualt.Succeeded)
+            {
+                foreach(var error in resualt.Errors)
+                {
+                    ModelState.TryAddModelError(error.Code, error.Description);
+
+                }
+                return BadRequest(ModelState);
+            }
+            await UserManager.AddToRoleAsync(user,Convert.ToString(registerUserDTO.Roles));
+            return StatusCode(201);
+
+        }
 
     }
 }
