@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace Entities.DataTransfareObjects
@@ -17,5 +18,7 @@ namespace Entities.DataTransfareObjects
 
 
         public string PofilePicture { get; set; }
+
+        public ICollection<string> Roles { get; set; }
     }
 }
