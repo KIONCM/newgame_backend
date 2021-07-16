@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Configureation\" />
-    <Folder Include="ErrorModel\" />
   </ItemGroup>
 
   <ItemGroup>
