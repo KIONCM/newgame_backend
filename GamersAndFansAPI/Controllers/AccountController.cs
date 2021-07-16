@@ -30,6 +30,12 @@ namespace GamersAndFansAPI.Controllers
 
         }
 
+        [HttpGet]
+        public List<IdentityRole> ListRoles()
+        {
+            return RoleManager.Roles.ToList();
+        }
+
 
     }
 }
