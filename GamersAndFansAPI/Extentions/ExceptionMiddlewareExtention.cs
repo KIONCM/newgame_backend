@@ -12,6 +12,10 @@ using Microsoft.AspNetCore.Http;
 
 namespace GamersAndFansAPI.Extentions
 {
+    /// <summary>
+    /// this class has been implemented from code-maze website Global Error Handling
+    /// to read more see : https://code-maze.com/global-error-handling-aspnetcore
+    /// </summary>
     public static class ExceptionMiddlewareExtention
     {
         public static void ConfigureExceptionHandler(this IApplicationBuilder app , ILoggerManager loggerManager)
