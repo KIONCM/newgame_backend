@@ -1,3 +1,5 @@
+using Contract;
+using GamersAndFansAPI.Extentions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -28,7 +30,7 @@ namespace GamersAndFansAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,ILoggerManager logger)
         {
             if (env.IsDevelopment())
             {
@@ -37,6 +39,8 @@ namespace GamersAndFansAPI
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GamersAndFansAPI v1"));
             }
 
+            // Configure  Exception Middleware
+            app.ConfigureExceptionHandler(logger);
             app.UseHttpsRedirection();
 
             app.UseRouting();
