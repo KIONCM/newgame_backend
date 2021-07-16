@@ -11,7 +11,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contract.Authentication
+namespace Contract
 {
     public class AuthenticationManager : IAuthenticationManager
     {

@@ -3,7 +3,7 @@ using Entities.DataTransfareObjects;
 using System.Threading.Tasks;
 
 
-namespace Contract.Authentication
+namespace Contract
 {
     public interface IAuthenticationManager
     {

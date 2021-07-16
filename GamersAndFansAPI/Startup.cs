@@ -36,6 +36,7 @@ namespace GamersAndFansAPI
                  options => options.UseSqlServer(Configuration.GetConnectionString("sqlConnection")));
 
             services.AddScoped<ILoggerManager,LoggerManager>();
+            services.AddScoped<IAuthenticationManager,AuthenticationManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
