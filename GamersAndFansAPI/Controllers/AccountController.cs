@@ -2,13 +2,13 @@
 using Contract.Authentication;
 using Entities.Models;
 using Entities.DataTransfareObjects;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Contract;
 
 namespace GamersAndFansAPI.Controllers
 {
@@ -17,14 +17,16 @@ namespace GamersAndFansAPI.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IMapper Mapper;
+        ILoggerManager Logger;
         private readonly UserManager<User> UserManager;
         private readonly RoleManager<IdentityRole> RoleManager;
         private readonly IAuthenticationManager AuthenticationManager;
 
-        public AccountController(IMapper mapper,UserManager<User>userManager,RoleManager<IdentityRole> roleManager,
+        public AccountController(IMapper mapper,ILoggerManager logger,UserManager<User>userManager,RoleManager<IdentityRole> roleManager,
                                   IAuthenticationManager authenticationManager)
         {
             Mapper = mapper;
+            Logger = logger;
             UserManager = userManager;
             RoleManager = roleManager;
             AuthenticationManager = authenticationManager;
@@ -53,7 +55,21 @@ namespace GamersAndFansAPI.Controllers
             }
             await UserManager.AddToRoleAsync(user,Convert.ToString(registerUserDTO.Roles));
             return StatusCode(201);
+        }
 
+
+        [HttpPost("Login")]
+
+        public async Task<IActionResult> Authenticate([FromBody] LoginDTO loginDTO)
+        {
+            if(!await AuthenticationManager.ValidateUser(loginDTO))
+            {
+                Logger.LogInfo($"{nameof(Authenticate)}:Login faild .. Wrong Username or Password .");
+                return Unauthorized();
+            }
+
+            return Ok(new { Token = await AuthenticationManager.CreateToken() });
+            
         }
 
     }
