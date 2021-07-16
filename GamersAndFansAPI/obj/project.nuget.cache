@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bw4Ntfch1pfepFBSeEK2EV0565wSr4OGN3kF8VXeNCRW8YE7KV7Mr3XVljwGa+p/f7e4heQ2hf5clB/2Y2lOlw==",
+  "dgSpecHash": "jTogMOlA2TFcFEHAyj18UA+A1LTMaSo8dm5QxqD1aZMEM/2b1qnL1KN0UVYtswemBmnChHyVGGAWXa/WiupNhQ==",
   "success": true,
   "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\GamersAndFansAPI.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,8 @@
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\OS-PLUS\\.nuget\\packages\\nlog\\4.7.10\\nlog.4.7.10.nupkg.sha512",
+    "C:\\Users\\OS-PLUS\\.nuget\\packages\\nlog.extensions.logging\\1.7.3\\nlog.extensions.logging.1.7.3.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

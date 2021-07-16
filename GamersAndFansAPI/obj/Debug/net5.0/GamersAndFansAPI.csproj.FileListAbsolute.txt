@@ -73,3 +73,7 @@ K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Repositories.pdb
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\NLog.config
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Humanizer.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\NLog.dll
+K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\LoggerService.dll
+K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\LoggerService.pdb

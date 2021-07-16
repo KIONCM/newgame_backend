@@ -1,6 +1,7 @@
 using Contract;
 using Entities.Context;
 using GamersAndFansAPI.Extentions;
+using LoggerService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -33,6 +34,8 @@ namespace GamersAndFansAPI
 
             services.AddDbContext<GamerDb>(
                  options => options.UseSqlServer(Configuration.GetConnectionString("sqlConnection")));
+
+            services.AddScoped<ILoggerManager,LoggerManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
