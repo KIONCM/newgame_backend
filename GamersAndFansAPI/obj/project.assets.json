@@ -1948,6 +1948,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1960,6 +1973,20 @@
         },
         "runtime": {
           "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.dll": {}
         }
       }
     }
@@ -6771,19 +6798,31 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Contract/1.0.0": {
+      "type": "project",
+      "path": "../Contract/Contract.csproj",
+      "msbuildProject": "../Contract/Contract.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Repositories/Repositories.csproj",
+      "msbuildProject": "../Repositories/Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "Contract >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.8",
+      "Repositories >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -6814,8 +6853,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj": {
+              "projectPath": "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj"
+            },
             "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj": {
               "projectPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj"
+            },
+            "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj": {
+              "projectPath": "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj"
             }
           }
         }

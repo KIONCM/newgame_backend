@@ -13,3 +13,6 @@ K:\Api's\GamersAndFansAPI\Repositories\obj\Debug\net5.0\Repositories.dll
 K:\Api's\GamersAndFansAPI\Repositories\obj\Debug\net5.0\ref\Repositories.dll
 K:\Api's\GamersAndFansAPI\Repositories\obj\Debug\net5.0\Repositories.pdb
 K:\Api's\GamersAndFansAPI\Repositories\obj\Debug\net5.0\Repositories.genruntimeconfig.cache
+K:\Api's\GamersAndFansAPI\Repositories\bin\Debug\net5.0\Entities.dll
+K:\Api's\GamersAndFansAPI\Repositories\bin\Debug\net5.0\Entities.pdb
+K:\Api's\GamersAndFansAPI\Repositories\obj\Debug\net5.0\Repositories.csproj.CopyComplete

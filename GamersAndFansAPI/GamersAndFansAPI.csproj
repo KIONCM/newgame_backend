@@ -14,12 +14,13 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Domain\Services\" />
-    <Folder Include="Mapping\" />
+    <Folder Include="Domain\" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Contract\Contract.csproj" />
     <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
   </ItemGroup>
 
 </Project>

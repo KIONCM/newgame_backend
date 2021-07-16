@@ -10,3 +10,6 @@ K:\Api's\GamersAndFansAPI\Contract\obj\Debug\net5.0\Contract.csproj.CoreCompileI
 K:\Api's\GamersAndFansAPI\Contract\obj\Debug\net5.0\Contract.dll
 K:\Api's\GamersAndFansAPI\Contract\obj\Debug\net5.0\ref\Contract.dll
 K:\Api's\GamersAndFansAPI\Contract\obj\Debug\net5.0\Contract.pdb
+K:\Api's\GamersAndFansAPI\Contract\bin\Debug\net5.0\Entities.dll
+K:\Api's\GamersAndFansAPI\Contract\bin\Debug\net5.0\Entities.pdb
+K:\Api's\GamersAndFansAPI\Contract\obj\Debug\net5.0\Contract.csproj.CopyComplete

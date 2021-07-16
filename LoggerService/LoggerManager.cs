@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace LoggerService
+﻿namespace LoggerService
 {
     public class LoggerManager
     {

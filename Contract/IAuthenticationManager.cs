@@ -1,8 +1,13 @@
-﻿using System;
+﻿
+using Entities.DataTransfareObjects;
+using System.Threading.Tasks;
 
-namespace Contract
+
+namespace Contract.Authentication
 {
-    public class IAuthenticationManager
+    public interface IAuthenticationManager
     {
+        public Task<bool> ValidateUser(LoginDTO loginDTO);
+        public Task<string> CreateToken();
     }
 }
