@@ -3,7 +3,7 @@
 
 namespace Entities.DataTransfareObjects
 {
-    class RegisterUserDTO
+   public class RegisterUserDTO
     {
         [Required(ErrorMessage = "Username is required!")]
         public string Username { get; set; }
