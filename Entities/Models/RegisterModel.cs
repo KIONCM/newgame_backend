@@ -14,6 +14,8 @@ namespace Entities.Models
         [Required(ErrorMessage = "Last Name is required!")]
         public string LastName { get; set; }
 
+        
+
         [Required(ErrorMessage = "Password is required!")]
         public string Password { get; set; }
 

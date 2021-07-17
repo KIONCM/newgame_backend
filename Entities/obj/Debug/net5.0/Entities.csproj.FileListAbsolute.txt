@@ -4,7 +4,6 @@ K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.runtimeconfig.dev.j
 K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.dll
 K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\ref\Entities.dll
 K:\Api's\GamersAndFansAPI\Entities\bin\Debug\net5.0\Entities.pdb
-K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
 K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
 K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
 K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
