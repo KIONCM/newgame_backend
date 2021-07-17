@@ -6566,9 +6566,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\GamersAndFansAPI.csproj",
-      "projectName": "GamersAndFansAPI",
-      "projectPath": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\GamersAndFansAPI.csproj",
+      "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\API.csproj",
+      "projectName": "API",
+      "projectPath": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\API.csproj",
       "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
       "outputPath": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\obj\\",
       "projectStyle": "PackageReference",
