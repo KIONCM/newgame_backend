@@ -47,7 +47,6 @@ K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.IdentityMo
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
@@ -77,3 +76,4 @@ K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\NLog.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\NLog.Extensions.Logging.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\LoggerService.dll
 K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\LoggerService.pdb
+K:\Api's\GamersAndFansAPI\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
