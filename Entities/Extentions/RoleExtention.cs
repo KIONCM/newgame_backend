@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace GamersAndFansAPI.Extentions
+namespace Entities.Extentions
 {
     public class RoleExtention : IEntityTypeConfiguration<IdentityRole>
     {

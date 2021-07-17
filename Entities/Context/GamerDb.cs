@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Extentions;
+using Entities.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,5 +13,11 @@ namespace Entities.Context
         }
 
         public virtual DbSet<Score> Scores { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new RoleExtention());
+        }
     }
 }
