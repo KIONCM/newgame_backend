@@ -1,2 +1,6 @@
 2021-07-17 18:31:37.3049 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
 2021-07-17 18:44:05.1201 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
+2021-07-17 18:50:36.8500 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
+2021-07-17 19:13:16.0384 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
+2021-07-17 19:17:06.1838 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
+2021-07-17 19:49:39.2952 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature

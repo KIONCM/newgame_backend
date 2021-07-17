@@ -23,6 +23,6 @@ namespace Entities.DataTransfareObjects
 
         public string PofilePicture { get; set; }
 
-        public ICollection<string> Roles { get; set; }
+        public string Roles { get; set; }
     }
 }

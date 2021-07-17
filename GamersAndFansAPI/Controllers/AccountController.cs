@@ -52,16 +52,16 @@ namespace GamersAndFansAPI.Controllers
                 }
                 return BadRequest(ModelState);
             }
-            await UserManager.AddToRoleAsync(user,Convert.ToString(registerUserDTO.Roles));
+            await UserManager.AddToRoleAsync(user, registerUserDTO.Roles);
             return StatusCode(201);
         }
 
 
         [HttpPost("Login")]
 
-        public async Task<IActionResult> Authenticate([FromBody] LoginDTO loginDTO)
+        public async Task<IActionResult> Authenticate([FromBody]LoginDTO user)
         {
-            if(!await AuthenticationManager.ValidateUser(loginDTO))
+            if(!await AuthenticationManager.ValidateUser(user))
             {
                 Logger.LogInfo($"{nameof(Authenticate)}:Login faild .. Wrong Username or Password .");
                 return Unauthorized();

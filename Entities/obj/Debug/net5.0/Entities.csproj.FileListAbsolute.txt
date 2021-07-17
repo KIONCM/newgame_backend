@@ -12,3 +12,4 @@ K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.dll
 K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\ref\Entities.dll
 K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.pdb
 K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.genruntimeconfig.cache
+K:\Api's\GamersAndFansAPI\Entities\obj\Debug\net5.0\Entities.csproj.AssemblyReference.cache
