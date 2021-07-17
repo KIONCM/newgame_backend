@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
 
 namespace GamersAndFansAPI
 {
@@ -37,6 +38,8 @@ namespace GamersAndFansAPI
 
             services.AddScoped<ILoggerManager,LoggerManager>();
             services.AddScoped<IAuthenticationManager,AuthenticationManager>();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
