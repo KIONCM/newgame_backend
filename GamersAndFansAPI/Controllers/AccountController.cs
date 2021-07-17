@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Contract.Authentication;
 using Entities.Models;
 using Entities.DataTransfareObjects;
 using Microsoft.AspNetCore.Identity;
