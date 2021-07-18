@@ -8,7 +8,7 @@ namespace Entities.DataTransfareObjects
         [Required(ErrorMessage = "Username is Requird!")]
         public string Username { get; set; }
 
-        [Required(ErrorMessage = "Username is Requird!")]
+        [Required(ErrorMessage = "Password is Requird!")]
         public string Password { get; set; }
     }
 }

@@ -6,3 +6,4 @@
 2021-07-18 04:04:28.5292 ERROR Something went wrong : String reference not set to an instance of a String. (Parameter 's')||System.Private.CoreLib
 2021-07-18 04:05:55.5131 ERROR Something went wrong : String reference not set to an instance of a String. (Parameter 's')|
 2021-07-18 04:06:48.2050 ERROR Something went wrong : String reference not set to an instance of a String. (Parameter 's')|
+2021-07-18 21:52:40.7994 INFO Authenticate:Login faild .. Wrong Username or Password .
