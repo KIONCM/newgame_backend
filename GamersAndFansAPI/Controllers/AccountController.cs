@@ -15,6 +15,7 @@ namespace GamersAndFansAPI.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+
         private readonly IMapper Mapper;
         ILoggerManager Logger;
         private readonly UserManager<User> UserManager;
@@ -32,12 +33,22 @@ namespace GamersAndFansAPI.Controllers
 
         }
 
+        
         [HttpGet]
         public List<IdentityRole> ListRoles()
         {
             return RoleManager.Roles.ToList();
         }
-
+        /// <summary>
+        /// Registration based on user type 
+        /// 
+        /// </summary>
+        /// <remarks> Send the User Details with required fields , and remember the password must be atleast 8 characters including upper and lower case with numbers and special characters</remarks>
+        /// <param name="registerUserDTO">Like a container mapped to the right model to send spacific properties</param>
+        /// <returns>IAction Resault </returns>
+        /// <responce code="201">Ok Created</responce>
+        /// <responce code="500">Internal Server Error</responce>
+        /// <responce code="307">Temparary Redirection</responce>
         [HttpPost]
         public async Task<IActionResult>RegisterUsre([FromBody]RegisterUserDTO registerUserDTO)
         {
@@ -56,7 +67,11 @@ namespace GamersAndFansAPI.Controllers
             return StatusCode(201);
         }
 
-
+        /// <summary>
+        /// test samary fot log in 
+        /// </summary>
+        /// <param name="user">User Details </param>
+        /// <returns>Access token valid for a month</returns>
         [HttpPost("Login")]
 
         public async Task<IActionResult> Authenticate([FromBody]LoginDTO user)
