@@ -28,7 +28,9 @@ namespace GamersAndFansAPI.Extentions
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
                     if (contextFeature != null)
                     {
-                        loggerManager.LogError($"Something went wrong : {contextFeature}");
+                        loggerManager.LogError("Something went wrong : " +
+                            $"{contextFeature.Error.Message}" +
+                            $"|{contextFeature.Error.InnerException}");
 
                         await context.Response.WriteAsync(new ErrorDetails()
                         {

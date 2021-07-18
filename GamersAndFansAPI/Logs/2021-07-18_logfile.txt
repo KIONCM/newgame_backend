@@ -1,2 +1,8 @@
 2021-07-18 01:26:39.8398 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
 2021-07-18 01:32:53.4537 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
+2021-07-18 03:51:22.2629 ERROR Something went wrong : Microsoft.AspNetCore.Diagnostics.ExceptionHandlerFeature
+2021-07-18 03:58:47.0761 ERROR Something went wrong : 
+2021-07-18 03:59:35.0307 ERROR Something went wrong : String reference not set to an instance of a String. (Parameter 's')
+2021-07-18 04:04:28.5292 ERROR Something went wrong : String reference not set to an instance of a String. (Parameter 's')||System.Private.CoreLib
+2021-07-18 04:05:55.5131 ERROR Something went wrong : String reference not set to an instance of a String. (Parameter 's')|
+2021-07-18 04:06:48.2050 ERROR Something went wrong : String reference not set to an instance of a String. (Parameter 's')|
