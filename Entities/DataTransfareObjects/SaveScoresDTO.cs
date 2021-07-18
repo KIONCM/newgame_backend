@@ -8,6 +8,8 @@ namespace Entities.DataTransfareObjects
 {
     public class SaveScoresDTO
     {
-
+        public int Scores { get; set; }
+        public string UserId { get; set; }
+        
     }
 }
