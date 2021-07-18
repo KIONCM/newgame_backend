@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Entities.DataTransfareObjects.Retrive;
+using Entities.Models;
 
 namespace GamersAndFansAPI.Mapping
 {
@@ -6,7 +8,9 @@ namespace GamersAndFansAPI.Mapping
     {
         public ModelsToResource()
         {
-
+            CreateMap<Score, ScoresDTO>()
+                .ForMember(destination => destination.User,
+                conf => conf.MapFrom(source => source.User));
         }
     }
 }
