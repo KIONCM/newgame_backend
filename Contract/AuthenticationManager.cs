@@ -78,6 +78,11 @@ namespace Contract
             return (User != null && await UserManager.CheckPasswordAsync(User, loginDTO.Password));
         }
 
+        public async Task<User> GetUserProfile(LoginDTO loginDTO)
+        {
+            return await UserManager.FindByNameAsync(loginDTO.Username);
+            
+        }
     }
 
 }

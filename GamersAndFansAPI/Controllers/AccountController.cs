@@ -82,7 +82,7 @@ namespace GamersAndFansAPI.Controllers
                 return Unauthorized();
             }
 
-            return Ok(new { Token = await AuthenticationManager.CreateToken() });
+            return Ok(new { Token = await AuthenticationManager.CreateToken(),User=await AuthenticationManager.GetUserProfile(user) });
             
         }
 
