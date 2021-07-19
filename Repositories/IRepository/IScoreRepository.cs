@@ -11,7 +11,7 @@ namespace Repositories.IRepository
     {
         public Task<IEnumerable<Score>> ListAsync();
         public Task<Score>FindByUserIdAsync(string UserId);
-        public Task<Score>AddAsync(Score score);
+        public Task AddAsync(Score score);
         public void UpdateAsync(Score score);
         public void DeleteAsync(Score score);
 

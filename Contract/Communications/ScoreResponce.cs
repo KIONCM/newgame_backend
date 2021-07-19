@@ -1,5 +1,4 @@
 ﻿using Entities.Models;
-using GamersAndFansAPI.Domain.Services.Communications;
 using System;
 using System.Collections.Generic;
 using System.Linq;
