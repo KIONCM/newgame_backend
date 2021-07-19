@@ -30,6 +30,9 @@
             "projectReferences": {
               "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj": {
                 "projectPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj"
+              },
+              "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj": {
+                "projectPath": "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj"
               }
             }
           }
