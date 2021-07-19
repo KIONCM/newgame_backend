@@ -34,9 +34,9 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult>GetByUserIdAsync(string UserId)
+        public async Task<IActionResult>GetByUserIdAsync(Guid Id)
         {
-            var resault = await ScoreService.ListScoresByUserId(UserId);
+            var resault = await ScoreService.ListScoresById(Id);
             if (!resault.Success)
                 return BadRequest(resault.Message);
             var resource = Mapper.Map<Score, ScoresDTO>(resault.Score);
@@ -57,12 +57,12 @@ namespace API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAsync(string id,[FromBody]SaveScoresDTO saveScoresDTO)
+        public async Task<IActionResult> PutAsync(Guid Id,[FromBody]SaveScoresDTO saveScoresDTO)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState.GetErrorMessages());
             var score = Mapper.Map<SaveScoresDTO, Score>(saveScoresDTO);
-            var resault = await ScoreService.UpdateScoreBasedOnUserId(id, score);
+            var resault = await ScoreService.UpdateAsync(Id, score);
             if (!resault.Success)
                 return NotFound(resault.Message);
             var resource = Mapper.Map<Score, ScoresDTO>(resault.Score);
@@ -73,7 +73,7 @@ namespace API.Controllers
 
         public async Task<IActionResult>DeleteAsync(Score score)
         {
-            var resault = await ScoreService.DeleteScore(score);
+            var resault = await ScoreService.DeleteAsync(score);
             if (!resault.Success)
                 return BadRequest(resault.Message);
             var resource = Mapper.Map<Score, ScoresDTO>(resault.Score);

@@ -11,9 +11,9 @@ namespace Contract
     public interface IScoreService
     {
         public Task<IEnumerable<Score>> RetriveTheListOfScores();
-        public Task<ScoreResponce> ListScoresByUserId(string UserId);
+        public Task<ScoreResponce> ListScoresById(Guid Id);
         public Task<ScoreResponce> AddingScores(Score score);
-        public Task<ScoreResponce> UpdateScoreBasedOnUserId(string UserId,Score score);
-        public Task<ScoreResponce> DeleteScore(Score score);
+        public Task<ScoreResponce> UpdateAsync(Guid Id,Score score);
+        public Task<ScoreResponce> DeleteAsync(Score score);
     }
 }

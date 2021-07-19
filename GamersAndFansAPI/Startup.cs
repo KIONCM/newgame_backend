@@ -41,7 +41,9 @@ namespace GamersAndFansAPI
             services.AddScoped<ILoggerManager,LoggerManager>();
             services.AddScoped<IAuthenticationManager,AuthenticationManager>();
 
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IScoreRepository,ScoreRepository>();
+
             services.AddScoped<IScoreService,ScoreService>();
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

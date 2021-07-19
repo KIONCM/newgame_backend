@@ -10,7 +10,7 @@ namespace Repositories.IRepository
     public interface IScoreRepository
     {
         public Task<IEnumerable<Score>> ListAsync();
-        public Task<Score>FindByUserIdAsync(string UserId);
+        public Task<Score>FindByIdAsync(Guid Id);
         public Task AddAsync(Score score);
         public void UpdateAsync(Score score);
         public void DeleteAsync(Score score);

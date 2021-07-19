@@ -8,6 +8,8 @@ namespace GamersAndFansAPI.Mapping
     {
         public ModelsToResource()
         {
+            CreateMap<User, UserDTO>();
+
             CreateMap<Score, ScoresDTO>()
                 .ForMember(destination => destination.User,
                 conf => conf.MapFrom(source => source.User));

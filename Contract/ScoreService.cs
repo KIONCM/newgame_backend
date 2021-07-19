@@ -37,10 +37,10 @@ namespace Contract
             }
         }
 
-        public async Task<ScoreResponce> DeleteScore(Score score)
+        public async Task<ScoreResponce> DeleteAsync(Score score)
         {
             
-            var ExistingScore = await ScoreRepository.FindByUserIdAsync(score.UserId);
+            var ExistingScore = await ScoreRepository.FindByIdAsync(score.Id);
             if (ExistingScore != null)
                 Logger.LogInfo("UserId in Scores not Found!");
 
@@ -59,12 +59,20 @@ namespace Contract
             
         }
 
-        public async Task<ScoreResponce> ListScoresByUserId(string UserId)
+        public async Task<ScoreResponce> ListScoresById(Guid Id)
         {
-            var score = await ScoreRepository.FindByUserIdAsync(UserId);
-            if (score != null)
-                return new ScoreResponce(score);
-            return new ScoreResponce("User id in scores not found!");
+            try
+            {
+                var score = await ScoreRepository.FindByIdAsync(Id);
+                //if (score != null)
+                  //  return new ScoreResponce(score);
+                return new ScoreResponce("User id in scores not found!");
+            }
+            catch(Exception ex)
+            {
+                return new ScoreResponce($"User id in scores not found{ex}!");
+            }
+           
 
         }
 
@@ -73,11 +81,11 @@ namespace Contract
             return await ScoreRepository.ListAsync();
         }
 
-        public async Task<ScoreResponce> UpdateScoreBasedOnUserId(string UserId, Score score)
+        public async Task<ScoreResponce> UpdateAsync(Guid Id, Score score)
         {
-            var ExistingScore = await ScoreRepository.FindByUserIdAsync(UserId);
+            var ExistingScore = await ScoreRepository.FindByIdAsync(Id);
             if (ExistingScore == null)
-                Logger.LogInfo("Score not found ! ");
+                Logger.LogInfo("Score not found ! it's null ");
             ExistingScore.Scores = score.Scores;
             try
             {

@@ -26,11 +26,11 @@ namespace Repositories.Repository
             Context.Scores.Remove(score);
         }
 
-        public async Task<Score> FindByUserIdAsync(string UserId)
+        public async Task<Score> FindByIdAsync(Guid Id)
         {
             return await Context.Scores
                 .Include(u => u.User)
-                .FirstOrDefaultAsync(u=>u.UserId==UserId);
+                .FirstOrDefaultAsync(u=>u.Id==Id);
         }
 
         public async Task<IEnumerable<Score>> ListAsync()
