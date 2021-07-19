@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Repositories.IRepository;
+using Repositories.Repository;
 using System;
 
 namespace GamersAndFansAPI
@@ -38,6 +40,8 @@ namespace GamersAndFansAPI
 
             services.AddScoped<ILoggerManager,LoggerManager>();
             services.AddScoped<IAuthenticationManager,AuthenticationManager>();
+
+            services.AddScoped<IScoreRepository,ScoreRepository>();
             services.AddScoped<IScoreService,ScoreService>();
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
