@@ -1,4 +1,4 @@
-package com.game.realplayer.chub;
+package com.game.realplayer.club;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
