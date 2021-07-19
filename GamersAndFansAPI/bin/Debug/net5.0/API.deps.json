@@ -1550,7 +1550,8 @@
       },
       "Contract/1.0.0": {
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "Repositories": "1.0.0"
         },
         "runtime": {
           "Contract.dll": {}

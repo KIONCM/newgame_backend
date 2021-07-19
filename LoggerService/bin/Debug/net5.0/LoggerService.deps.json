@@ -1120,7 +1120,8 @@
       },
       "Contract/1.0.0": {
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "Repositories": "1.0.0"
         },
         "runtime": {
           "Contract.dll": {}
@@ -1133,6 +1134,15 @@
         },
         "runtime": {
           "Entities.dll": {}
+        }
+      },
+      "Repositories/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.8"
+        },
+        "runtime": {
+          "Repositories.dll": {}
         }
       }
     }
@@ -1856,6 +1866,11 @@
       "sha512": ""
     },
     "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

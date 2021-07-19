@@ -1,0 +1,1 @@
+2021-07-20 00:07:09.2377 ERROR Something went wrong : Unable to resolve service for type 'Contract.IScoreService' while attempting to activate 'API.Controllers.ScoreController'.|

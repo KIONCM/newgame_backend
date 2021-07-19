@@ -13,3 +13,5 @@ K:\Api's\GamersAndFansAPI\Contract\obj\Debug\net5.0\Contract.pdb
 K:\Api's\GamersAndFansAPI\Contract\bin\Debug\net5.0\Entities.dll
 K:\Api's\GamersAndFansAPI\Contract\bin\Debug\net5.0\Entities.pdb
 K:\Api's\GamersAndFansAPI\Contract\obj\Debug\net5.0\Contract.csproj.CopyComplete
+K:\Api's\GamersAndFansAPI\Contract\bin\Debug\net5.0\Repositories.dll
+K:\Api's\GamersAndFansAPI\Contract\bin\Debug\net5.0\Repositories.pdb
