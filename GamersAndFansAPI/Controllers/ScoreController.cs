@@ -59,7 +59,7 @@ namespace API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAsync(Guid Id,[FromBody]SaveScoresDTO saveScoresDTO)
         {
-            if (!ModelState.IsValid)
+            if(!ModelState.IsValid)
                 return BadRequest(ModelState.GetErrorMessages());
             var score = Mapper.Map<SaveScoresDTO, Score>(saveScoresDTO);
             var resault = await ScoreService.UpdateAsync(Id, score);
@@ -69,11 +69,11 @@ namespace API.Controllers
             return Ok(resource);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete]
 
         public async Task<IActionResult>DeleteAsync(Score score)
         {
-            var resault = await ScoreService.DeleteAsync(score);
+            var resault = await ScoreService.DeleteAsync(score.Id, score);
             if (!resault.Success)
                 return BadRequest(resault.Message);
             var resource = Mapper.Map<Score, ScoresDTO>(resault.Score);

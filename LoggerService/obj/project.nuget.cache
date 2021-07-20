@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1gtiL15PcUwHHbMFPOPfQITEI07WRBPyfcmgPDeLyGrqEg3MpiJrLoWRbXNmP1/LAB/Yc9dGsHpTBkN66Zmf/A==",
+  "dgSpecHash": "0j4y9yt6nCgedVRgL/BGwQDLqYMNyUEWis9L7oZdzXl5kZxJXz7tdi/DAVj6GBDnfVavjkoNz+1ocMXJPLKITg==",
   "success": true,
-  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj",
+  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.8\\microsoft.aspnetcore.cryptography.internal.5.0.8.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.8\\microsoft.aspnetcore.cryptography.keyderivation.5.0.8.nupkg.sha512",

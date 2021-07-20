@@ -37,10 +37,10 @@ namespace Contract
             }
         }
 
-        public async Task<ScoreResponce> DeleteAsync(Score score)
+        public async Task<ScoreResponce> DeleteAsync(Guid Id,Score score)
         {
             
-            var ExistingScore = await ScoreRepository.FindByIdAsync(score.Id);
+            var ExistingScore = await ScoreRepository.FindByIdAsync(Id);
             if (ExistingScore != null)
                 Logger.LogInfo("UserId in Scores not Found!");
 
@@ -48,7 +48,7 @@ namespace Contract
             {
                 ScoreRepository.DeleteAsync(ExistingScore);
                 await UnitOfWork.CompleteAsync();
-                return new ScoreResponce($"The score with info :{ExistingScore} /n Has been deleted successfully.");
+                return new ScoreResponce($"User Scores has been deleted successfully.");
 
             }
             catch(Exception exception)
@@ -85,8 +85,9 @@ namespace Contract
         {
             var ExistingScore = await ScoreRepository.FindByIdAsync(Id);
             if (ExistingScore == null)
-                Logger.LogInfo("Score not found ! it's null ");
-            ExistingScore.Scores = score.Scores;
+                return new ScoreResponce("Score not found !");
+
+            ExistingScore.Scores = (ExistingScore.Scores + score.Scores);
             try
             {
                 ScoreRepository.UpdateAsync(ExistingScore);
@@ -99,5 +100,6 @@ namespace Contract
                 return new ScoreResponce("An Error has accured when trying to update a value of scores");
             }
         }
+
     }
 }
