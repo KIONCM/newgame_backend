@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Contract;
+using Entities.DataTransfareObjects.Retrive;
 
 namespace GamersAndFansAPI.Controllers
 {
@@ -82,7 +83,9 @@ namespace GamersAndFansAPI.Controllers
                 return Unauthorized();
             }
 
-            return Ok(new { Token = await AuthenticationManager.CreateToken(),User=await AuthenticationManager.GetUserProfile(user) });
+            var User = await AuthenticationManager.GetUserProfile(user);
+            var userProfile = Mapper.Map<User, UserDTO>(User);
+            return Ok(new { Token = await AuthenticationManager.CreateToken(), userProfile });
             
         }
 
