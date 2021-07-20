@@ -5958,11 +5958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj",
+      "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj",
+      "projectPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
-      "outputPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\obj\\",
+      "outputPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OS-PLUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A/SD47XSrxBHGvcFH2xGnKMPwO4cjhAMqNr7mRo5C+0yqXe4X0h7Cdj9M1u8C0A+q6SoxGZHPCVRrtZNwkelYQ==",
+  "dgSpecHash": "MwxBD7vk/WKFoaym6hwkfAOu/rYzABhPaB8SrPU8vTLVKtuf3u/+8ji9FEUAgLJD/0fT4cjre0TrtUyKNAEQrA==",
   "success": true,
-  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\GamersANdFansAPI\\API.csproj",
+  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -6001,11 +6001,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\LoggerService.csproj",
+      "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj",
       "projectName": "LoggerService",
-      "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\LoggerService.csproj",
+      "projectPath": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj",
       "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
-      "outputPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\obj\\",
+      "outputPath": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OS-PLUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6022,8 +6022,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj": {
-              "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj"
+            "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj": {
+              "projectPath": "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj"
             }
           }
         }

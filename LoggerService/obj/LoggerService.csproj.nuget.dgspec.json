@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\LoggerService.csproj": {}
+    "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj": {}
   },
   "projects": {
-    "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj": {
+    "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj",
+        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj",
         "projectName": "Contract",
-        "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj",
+        "projectPath": "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj",
         "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
-        "outputPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\obj\\",
+        "outputPath": "K:\\Api's\\GamersAndFansAPI\\Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OS-PLUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj": {
-                "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj"
+              "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj": {
+                "projectPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj"
               },
-              "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Repositories\\Repositories.csproj": {
-                "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Repositories\\Repositories.csproj"
+              "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj": {
+                "projectPath": "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj": {
+    "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj",
+        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj",
+        "projectPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
-        "outputPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\obj\\",
+        "outputPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OS-PLUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,14 +141,14 @@
         }
       }
     },
-    "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\LoggerService.csproj": {
+    "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\LoggerService.csproj",
+        "projectPath": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
-        "outputPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\LoggerService\\obj\\",
+        "outputPath": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OS-PLUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,8 +165,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj": {
-                "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj"
+              "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj": {
+                "projectPath": "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj"
               }
             }
           }
@@ -205,14 +205,14 @@
         }
       }
     },
-    "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Repositories\\Repositories.csproj": {
+    "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Repositories\\Repositories.csproj",
+        "projectPath": "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
-        "outputPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Repositories\\obj\\",
+        "outputPath": "K:\\Api's\\GamersAndFansAPI\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OS-PLUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -229,8 +229,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj": {
-                "projectPath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj"
+              "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj": {
+                "projectPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj"
               }
             }
           }

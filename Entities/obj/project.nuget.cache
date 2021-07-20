@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wKPIF1LhhjHaVMUnit0tt3BPgwEAeyvcqAhr0yCxHph2aqL33yx8CcDQGo7yM0a6/QKdTylNxZD/3UGESeGxkw==",
+  "dgSpecHash": "0ai7yiuVFcYpNJI3xnk5XfvVFvXc0PoVwEuTWmlJkY9PsPZQi+XTi8yQ12JQ6Onh0r2rLfOMM24iEJe7psjAdA==",
   "success": true,
-  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Entities\\Entities.csproj",
+  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.8\\microsoft.aspnetcore.cryptography.internal.5.0.8.nupkg.sha512",

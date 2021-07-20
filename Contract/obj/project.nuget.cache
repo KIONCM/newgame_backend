@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ql33xCY/HYGXwJg0eASMiM4NrBocDVDqStzYdazAUC8SfTQQxPUGdi7zi8ab2q58qUnSTSKtP6ak+OFbZ9lrBw==",
+  "dgSpecHash": "VZ0gy44/i9EluCdN5+O0MSQOwolYpxYMRkBmEB1B8Q4leCvsUIdnWvK9Ni0fDugZ6c05OTCDcIBiSE5qBhsz9w==",
   "success": true,
-  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\dotnet-backend\\Contract\\Contract.csproj",
+  "projectFilePath": "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.8\\microsoft.aspnetcore.cryptography.internal.5.0.8.nupkg.sha512",
     "C:\\Users\\OS-PLUS\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.8\\microsoft.aspnetcore.cryptography.keyderivation.5.0.8.nupkg.sha512",

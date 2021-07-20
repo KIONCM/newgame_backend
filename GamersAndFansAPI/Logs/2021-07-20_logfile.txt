@@ -1,0 +1,8 @@
+2021-07-20 04:31:51.9094 INFO UserId in Scores not Found!
+2021-07-20 04:32:26.9477 INFO Score Added Successfully .
+2021-07-20 04:52:53.1762 INFO UserId in Scores not Found!
+2021-07-20 04:56:06.9565 INFO Score Added Successfully .
+2021-07-20 05:02:10.3458 INFO UserId in Scores not Found!
+2021-07-20 05:09:14.1922 INFO Authenticate:Login faild .. Wrong Username or Password .
+2021-07-20 05:09:46.3122 INFO Score Added Successfully .
+2021-07-20 05:11:26.1806 INFO UserId in Scores not Found!
