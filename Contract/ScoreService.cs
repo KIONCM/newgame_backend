@@ -37,10 +37,10 @@ namespace Contract
             }
         }
 
-        public async Task<ScoreResponce> DeleteAsync(Guid Id,Score score)
+        public async Task<ScoreResponce> DeleteAsync(Score score)
         {
             
-            var ExistingScore = await ScoreRepository.FindByIdAsync(Id);
+            var ExistingScore = await ScoreRepository.FindByIdAsync(score.Id);
             if (ExistingScore != null)
                 Logger.LogInfo("Score not Found!");
 
@@ -81,13 +81,13 @@ namespace Contract
             return await ScoreRepository.ListAsync();
         }
 
-        public async Task<ScoreResponce> UpdateAsync(Guid Id, Score score)
+        public async Task<ScoreResponce> UpdateAsync(Score score)
         {
-            var ExistingScore = await ScoreRepository.FindByIdAsync(Id);
+            var ExistingScore = await ScoreRepository.FindByIdAsync(score.Id);
             if (ExistingScore == null)
                 return new ScoreResponce("Score not found !");
 
-            ExistingScore.Scores = (ExistingScore.Scores + score.Scores);
+            ExistingScore.Scores += score.Scores;
             try
             {
                 ScoreRepository.UpdateAsync(ExistingScore);

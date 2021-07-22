@@ -13,7 +13,7 @@ namespace Contract
         public Task<IEnumerable<Score>> RetriveTheListOfScores();
         public Task<ScoreResponce> ListScoresById(Guid Id);
         public Task<ScoreResponce> AddingScores(Score score);
-        public Task<ScoreResponce> UpdateAsync(Guid Id,Score score);
-        public Task<ScoreResponce> DeleteAsync(Guid Id,Score score);
+        public Task<ScoreResponce> UpdateAsync(Score score);
+        public Task<ScoreResponce> DeleteAsync(Score score);
     }
 }
