@@ -10,6 +10,7 @@ namespace GamersAndFansAPI.Mapping
         {
             CreateMap<RegisterUserDTO, User>();
             CreateMap<SaveScoresDTO, Score>();
+            CreateMap<UpdateOrDeleteScoresDTO, Score>();
         }
     }
 }
