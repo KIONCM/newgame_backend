@@ -56,13 +56,13 @@ namespace API.Controllers
             return Ok(resource);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutAsync(Guid Id,[FromBody]SaveScoresDTO saveScoresDTO)
+        [HttpPut]
+        public async Task<IActionResult> PutAsync([FromBody]UpdateOrDeleteScoresDTO updateScoresDTO)
         {
             if(!ModelState.IsValid)
                 return BadRequest(ModelState.GetErrorMessages());
-            var score = Mapper.Map<SaveScoresDTO, Score>(saveScoresDTO);
-            var resault = await ScoreService.UpdateAsync(Id, score);
+            var score = Mapper.Map<UpdateOrDeleteScoresDTO, Score>(updateScoresDTO);
+            var resault = await ScoreService.UpdateAsync(score);
             if (!resault.Success)
                 return NotFound(resault.Message);
             var resource = Mapper.Map<Score, ScoresDTO>(resault.Score);
@@ -73,7 +73,7 @@ namespace API.Controllers
 
         public async Task<IActionResult>DeleteAsync(Score score)
         {
-            var resault = await ScoreService.DeleteAsync(score.Id, score);
+            var resault = await ScoreService.DeleteAsync(score);
             if (!resault.Success)
                 return BadRequest(resault.Message);
             var resource = Mapper.Map<Score, ScoresDTO>(resault.Score);
