@@ -60,7 +60,12 @@ namespace GamersAndFansAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GamersAndFansAPI v1"));
+                app.UseSwaggerUI(c => 
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "GamersAndFansAPI v1");
+                    c.RoutePrefix = string.Empty;
+                }); 
+                
             }
 
             // Configure  Exception Middleware

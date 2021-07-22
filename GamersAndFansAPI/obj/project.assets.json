@@ -6567,11 +6567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\API.csproj",
+      "projectUniqueName": "J:\\GitHub\\newgame_backend\\dotnet-backend\\GamersAndFansAPI\\API.csproj",
       "projectName": "API",
-      "projectPath": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\API.csproj",
+      "projectPath": "J:\\GitHub\\newgame_backend\\dotnet-backend\\GamersAndFansAPI\\API.csproj",
       "packagesPath": "C:\\Users\\OS-PLUS\\.nuget\\packages\\",
-      "outputPath": "K:\\Api's\\GamersAndFansAPI\\GamersAndFansAPI\\obj\\",
+      "outputPath": "J:\\GitHub\\newgame_backend\\dotnet-backend\\GamersAndFansAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OS-PLUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6588,17 +6588,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj": {
-              "projectPath": "K:\\Api's\\GamersAndFansAPI\\Contract\\Contract.csproj"
+            "J:\\GitHub\\newgame_backend\\dotnet-backend\\Contract\\Contract.csproj": {
+              "projectPath": "J:\\GitHub\\newgame_backend\\dotnet-backend\\Contract\\Contract.csproj"
             },
-            "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj": {
-              "projectPath": "K:\\Api's\\GamersAndFansAPI\\Entities\\Entities.csproj"
+            "J:\\GitHub\\newgame_backend\\dotnet-backend\\Entities\\Entities.csproj": {
+              "projectPath": "J:\\GitHub\\newgame_backend\\dotnet-backend\\Entities\\Entities.csproj"
             },
-            "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "K:\\Api's\\GamersAndFansAPI\\LoggerService\\LoggerService.csproj"
+            "J:\\GitHub\\newgame_backend\\dotnet-backend\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "J:\\GitHub\\newgame_backend\\dotnet-backend\\LoggerService\\LoggerService.csproj"
             },
-            "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj": {
-              "projectPath": "K:\\Api's\\GamersAndFansAPI\\Repositories\\Repositories.csproj"
+            "J:\\GitHub\\newgame_backend\\dotnet-backend\\Repositories\\Repositories.csproj": {
+              "projectPath": "J:\\GitHub\\newgame_backend\\dotnet-backend\\Repositories\\Repositories.csproj"
             }
           }
         }
