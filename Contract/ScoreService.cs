@@ -41,7 +41,7 @@ namespace Contract
         {
             
             var ExistingScore = await ScoreRepository.FindByIdAsync(score.Id);
-            if (ExistingScore != null)
+            if (ExistingScore == null)
                 Logger.LogInfo("Score not Found!");
 
             try

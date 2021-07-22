@@ -71,8 +71,9 @@ namespace API.Controllers
 
         [HttpDelete]
 
-        public async Task<IActionResult>DeleteAsync(Score score)
+        public async Task<IActionResult>DeleteAsync([FromBody] UpdateOrDeleteScoresDTO deleteScoresDTO)
         {
+            var score = Mapper.Map<UpdateOrDeleteScoresDTO,Score>(deleteScoresDTO);
             var resault = await ScoreService.DeleteAsync(score);
             if (!resault.Success)
                 return BadRequest(resault.Message);
