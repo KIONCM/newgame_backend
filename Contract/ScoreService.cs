@@ -42,13 +42,13 @@ namespace Contract
             
             var ExistingScore = await ScoreRepository.FindByIdAsync(Id);
             if (ExistingScore != null)
-                Logger.LogInfo("UserId in Scores not Found!");
+                Logger.LogInfo("Score not Found!");
 
             try
             {
                 ScoreRepository.DeleteAsync(ExistingScore);
                 await UnitOfWork.CompleteAsync();
-                return new ScoreResponce($"User Scores has been deleted successfully.");
+                return new ScoreResponce($"Score has been deleted successfully.");
 
             }
             catch(Exception exception)
@@ -66,11 +66,11 @@ namespace Contract
                 var score = await ScoreRepository.FindByIdAsync(Id);
                 //if (score != null)
                   //  return new ScoreResponce(score);
-                return new ScoreResponce("User id in scores not found!");
+                return new ScoreResponce("Score  not found!");
             }
             catch(Exception ex)
             {
-                return new ScoreResponce($"User id in scores not found{ex}!");
+                return new ScoreResponce($"Score not found{ex}!");
             }
            
 
