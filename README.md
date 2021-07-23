@@ -33,8 +33,9 @@ http://localhost:5000/swagger/index.html
 ```
 and our route holding the Swagger Documentation to display the end points and parameters.
 
+### Account Controller:
 #### Gamer and Fan Registraion :
-
+**Post**
 >#### Requirements in registration User Object 
 >- Username "has validation on using Characters and numbers."  
 >- First name and last name are required .
@@ -63,7 +64,7 @@ https:localhost:5001/API/Account
 ---
 
 #### User Login:
-
+**Post**
 >#### Requirements in Login Object 
 >- Username. 
 >- Password.
@@ -95,8 +96,96 @@ https:localhost:5001/API/Account/login
     }
 }
 ```
+---
+### Score Controller:
+**Get**
+#### ListAsync:
+Is an Action to return all Scores in database if that scores belong to current user or  not is for analasis purose and to calculate the rank on game.
+Hit the endpoint 
+```Bash
+https:localhost:5001/API/Scores 
+```
 
+```json
+[
+    {
+        "id": "16bd9779-20ce-499c-2c63-08d94d5c4c3a",
+        "scores": 900, //total scores for user
+        "user": {
+              "id": "664545-e28a-487-b922-cc3d214b9544",
+              "firstName": "John",
+              "lastName": "Doe",
+              "username": "John2021",
+              "email": "Johnfoe@example.com",
+              "phoneNumber": null,
+              "profilePict": null
+        }
+    }
+]
+```
+--- 
 
+**Get by Id**
+It's same to ListAsync but rather than return a list of scors it's returns a single record for specified Id it's for details 
+hit the endpoint below and send an id of score  
+```Bash
+https:localhost:5001/API/Scores 
+```
+```json
+{
+    "id":"5c16daed-b43f-4032-f2c7-08d94d3449f0"
+}
+```
+--- 
+**Post**
+Create new score linked to user the id is auto generated 
+{
+    "scores":600,
+    "userid":"669154ec-e28a-4fe1-b922-cc3d271b9544"
+}
+the server will reponse with Status **``200 OK``**  and the new Created score
+```json
+{
+    "id": "16bd9779-20ce-499c-2c63-08d94d5c4c3a",
+    "scores": 600,
+    "user": null
+}
+```
+that means the score created successfully and returns an object of created score if not it will response with Error **``500 ``** ``Internal Server Error`` and will send the error messages to the `Log Files` that is the beuty of Logger Manager .
+
+--- 
+
+**Put**
+Update an score , send the score object as a Put request to ``Score Controller`` 
+{
+    "id":"5c16daed-b43f-4032-f2c7-08d94d3449f0",
+    "scores":300,
+    "userid":"669154ec-e28a-4fe1-b922-cc3d271b9544"
+}
+the server will reponse with Status **``200 OK``** and the object of updated score with user profile .
+```json 
+{
+    "id": "16bd9779-20ce-499c-2c63-08d94d5c4c3a",
+    "scores": 900,
+    "user": {
+       
+              "id": "664545-e28a-487-b922-cc3d214b9544",
+              "firstName": "John",
+              "lastName": "Doe",
+              "username": "John2021",
+              "email": "Johnfoe@example.com",
+              "phoneNumber": null,
+              "profilePict": null
+    }
+}
+```
+that means the score Updated successfully , if the request it fails the server will response with Error **``500 ``** ``Internal Server Error`` and will send the error messages to the `Log Files`.
+
+**Delete**
+Send the Same score object with **``Delete``** request and the server sadlly will responce with Status Code **``400``** ``Bad Request`` and message 
+``Score has been deleted successfully.
+``
+it's work fine just the server response with error 400and we will fix that . 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
