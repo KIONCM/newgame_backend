@@ -18,7 +18,7 @@ namespace GamersAndFansAPI.Controllers
     {
 
         private readonly IMapper Mapper;
-        ILoggerManager Logger;
+        readonly ILoggerManager Logger;
         private readonly UserManager<User> UserManager;
         private readonly RoleManager<IdentityRole> RoleManager;
         private readonly IAuthenticationManager AuthenticationManager;

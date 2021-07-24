@@ -1,7 +1,1 @@
-2021-07-22 19:09:11.3612 ERROR An error has accured when trying to deleting score : System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
-   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
-   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
-   at Repositories.Repository.ScoreRepository.DeleteAsync(Score score) in J:\GitHub\newgame_backend\dotnet-backend\Repositories\Repository\ScoreRepository.cs:line 26
-   at Contract.ScoreService.DeleteAsync(Score score) in J:\GitHub\newgame_backend\dotnet-backend\Contract\ScoreService.cs:line 49
-2021-07-22 19:11:15.0964 INFO Score Added Successfully .
-2021-07-22 19:12:00.1286 INFO Score not Found!
+

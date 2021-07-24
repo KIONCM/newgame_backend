@@ -9,6 +9,7 @@ namespace GamersAndFansAPI.Mapping
         public ResourcesToModels()
         {
             CreateMap<RegisterUserDTO, User>();
+            CreateMap<LoginDTO, User>();
             CreateMap<SaveScoresDTO, Score>();
             CreateMap<UpdateOrDeleteScoresDTO, Score>();
         }

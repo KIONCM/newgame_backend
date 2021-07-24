@@ -50,15 +50,13 @@
               "target": "Package",
               "version": "[5.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[1.1.6, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "cloudscribe.Core.Storage.EFCore.MSSQL": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[4.1.7, )"
             }
           },
           "imports": [
