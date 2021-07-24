@@ -27,9 +27,7 @@ dotnet run --project GamersAndFansAPI
 
 First End Point that in our api is the root route  
 ```bash 
-https:localhost:5001/API/
---------------------------------
-http://localhost:5000/swagger/index.html
+https://kiongamersapi.azurewebsites.net/
 ```
 and our route holding the Swagger Documentation to display the end points and parameters.
 
@@ -57,7 +55,7 @@ and our route holding the Swagger Documentation to display the end points and pa
 
 For the register operation a **``Post``** request contains an object of user send to ``AccountController`` as Request Body to the end point
 ```Bash
-https:localhost:5001/API/Account 
+https://kiongamersapi.azurewebsites.net/api/Account 
 ```
  and the Server will response with Http Status Code **``201 Created``** that means the account with roles was registerd on database if not may they are same username in database or may other validation , Check error and try again  .  
 
@@ -77,7 +75,7 @@ https:localhost:5001/API/Account
 ```
 Login is simple a **``Post``** request contains an object of user send to ``AccountController`` `Login Method ` as Request Body to the end point
 ```Bash
-https:localhost:5001/API/Account/login 
+https://kiongamersapi.azurewebsites.net/api/Account/login 
 ```
  and the Server will response with Http Status Code **``OK 200``** and returns **``Access Token``** and user profile if it's authenticated or returns Status Code **``401 UnAutherized ``** if the user not found on authentication manager or returns the error with ``Username or password not found ! `` .
 #### Response from Login request 
@@ -103,7 +101,7 @@ https:localhost:5001/API/Account/login
 Is an Action to return all Scores in database if that scores belong to current user or  not is for analasis purose and to calculate the rank on game.
 Hit the endpoint 
 ```Bash
-https:localhost:5001/API/Scores 
+https://kiongamersapi.azurewebsites.net/api/Score
 ```
 
 ```json
@@ -129,7 +127,7 @@ https:localhost:5001/API/Scores
 It's same to ListAsync but rather than return a list of scors it's returns a single record for specified Id it's for details 
 hit the endpoint below and send an id of score  
 ```Bash
-https:localhost:5001/API/Scores 
+https://kiongamersapi.azurewebsites.net/api/Score 
 ```
 ```json
 {
