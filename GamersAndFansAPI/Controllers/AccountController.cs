@@ -77,13 +77,14 @@ namespace GamersAndFansAPI.Controllers
 
         public async Task<IActionResult> Authenticate([FromBody]LoginDTO user)
         {
+            
             if(!await AuthenticationManager.ValidateUser(user))
             {
                 Logger.LogInfo($"{nameof(Authenticate)}:Login faild .. Wrong Username or Password .");
                 return Unauthorized();
             }
 
-            var User = await AuthenticationManager.GetUserProfile(user);
+            var User = await AuthenticationManager.GetUserProfile(user);            
             var userProfile = Mapper.Map<User, UserDTO>(User);
 
             return Ok(new { Token = await AuthenticationManager.CreateToken(), userProfile });
