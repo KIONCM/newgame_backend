@@ -64,41 +64,7 @@ namespace GamersAndFansAPI.Extentions
                 });
         }
 
-        public static void ConfigureSwaggerDocumentation(this IServiceCollection services)
-        {
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Title = "Gamers and Fans API",
-                    Version = "v1",
-                    Description = "Is a .Net5 API for registering Gamers and their Scores and registering Fans for KIONCM game." +
-                    " So the user can register credentials and the role then the API will " +
-                    "response with a Status Code 201 that user created , " +
-                    "in other hand they are three types of users (Gamer , Fan , Admin )",
-                    
-                    Contact = new OpenApiContact
-                    {
-                        Name = "Osama Abu Baker",
-                        Email = "Osamaabubaker111@gmail.com",
-                        Url = new Uri("https://www.linkedin.com/in/osama-abu-baker/")
-                        
-                    }
-                    /*
-                    ,
-                    License = new OpenApiLicense
-                    {
-                        Name = "Employee API LICX",
-                        Url = new Uri("https://example.com/license"),
-                    }
-                    */
-                });
-                // Set the comments path for the Swagger JSON and UI.
-                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                c.IncludeXmlComments(xmlPath);
-            });
-        }
+       
 
 
     }

@@ -12,6 +12,8 @@ using Microsoft.OpenApi.Models;
 using Repositories.IRepository;
 using Repositories.Repository;
 using System;
+using System.IO;
+using System.Reflection;
 
 namespace GamersAndFansAPI
 {
@@ -27,9 +29,32 @@ namespace GamersAndFansAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.ConfigureSwaggerDocumentation();
 
             services.AddControllers();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Gamers and Fans API",
+                    Version = "v1",
+                    Description = "Is a .Net5 API for registering Gamers and their Scores and registering Fans for KIONCM game. So the user can register credentials and the role then the API will response with a Status Code 201 that user created , in other hand they are three types of users (Gamer , Fan , Admin )",
+
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Osama Abu Baker",
+                        Email = "Osamaabubaker111@gmail.com",
+                        Url = new Uri("https://www.linkedin.com/in/osama-abu-baker/")
+
+                    }
+                    
+                });
+             
+            });
+
+          
+         
+            
 
             services.AddDbContext<GamerDb>(
                  options => options.UseSqlServer(Configuration.GetConnectionString("sqlConnection")));
