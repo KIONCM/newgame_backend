@@ -7,6 +7,9 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\Pub
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\API.pdb
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\AutoMapper.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Azure.Core.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Azure.Storage.Blobs.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Azure.Storage.Common.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\cloudscribe.Common.Gdpr.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\cloudscribe.Core.Models.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\cloudscribe.Core.Storage.EFCore.Common.dll
@@ -17,6 +20,8 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\Pub
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.Azure.Services.AppAuthentication.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -29,6 +34,7 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\Pub
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.Identity.Core.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.Identity.Stores.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.Identity.Client.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
@@ -36,6 +42,7 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\Pub
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\NLog.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\NLog.Extensions.AzureBlobStorage.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\NLog.Extensions.Logging.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll

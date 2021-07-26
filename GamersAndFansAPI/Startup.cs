@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using NLog;
 using Repositories.IRepository;
 using Repositories.Repository;
 using System;
@@ -21,7 +22,9 @@ namespace GamersAndFansAPI
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
             Configuration = configuration;
+           
         }
 
         public IConfiguration Configuration { get; }

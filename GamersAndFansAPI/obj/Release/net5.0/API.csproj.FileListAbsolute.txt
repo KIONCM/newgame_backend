@@ -84,3 +84,10 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\clo
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\cloudscribe.Pagination.Models.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Azure.Core.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Azure.Storage.Blobs.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Azure.Storage.Common.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Microsoft.Azure.Services.AppAuthentication.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\NLog.Extensions.AzureBlobStorage.dll

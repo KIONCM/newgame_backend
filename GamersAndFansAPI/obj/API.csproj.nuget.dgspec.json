@@ -234,6 +234,10 @@
               "target": "Package",
               "version": "[5.0.1, )"
             },
+            "NLog.Extensions.AzureBlobStorage": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
