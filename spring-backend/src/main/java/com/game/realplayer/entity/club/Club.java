@@ -1,4 +1,4 @@
-package com.game.realplayer.entity;
+package com.game.realplayer.entity.club;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

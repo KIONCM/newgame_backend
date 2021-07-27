@@ -1,4 +1,4 @@
-package com.game.realplayer.entity;
+package com.game.realplayer.entity.player;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,6 +13,7 @@ public class PlayerCategory {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+
    /* @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "categories_players",

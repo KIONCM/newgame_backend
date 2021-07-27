@@ -1,7 +1,7 @@
 package com.game.realplayer.controller;
 
 import com.game.realplayer.repository.ClubRepo;
-import com.game.realplayer.entity.Club;
+import com.game.realplayer.entity.club.Club;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

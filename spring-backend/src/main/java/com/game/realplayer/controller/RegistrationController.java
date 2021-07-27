@@ -1,6 +1,6 @@
 package com.game.realplayer.controller;
 
-import com.game.realplayer.entity.PlayerRegistrationRequest;
+import com.game.realplayer.entity.player.PlayerRegistrationRequest;
 import com.game.realplayer.service.PlayerRegistrationService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
