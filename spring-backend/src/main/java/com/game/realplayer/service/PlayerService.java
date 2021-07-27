@@ -1,5 +1,7 @@
-package com.game.realplayer.player;
+package com.game.realplayer.service;
 
+import com.game.realplayer.entity.Player;
+import com.game.realplayer.repository.PlayerRepo;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

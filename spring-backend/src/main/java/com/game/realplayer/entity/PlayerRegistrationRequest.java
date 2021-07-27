@@ -1,4 +1,4 @@
-package com.game.realplayer.player.registration;
+package com.game.realplayer.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @Data
-public class RegistrationRequest {
+public class PlayerRegistrationRequest {
     private final String firstname;
     private final String lastname;
     private final String email;

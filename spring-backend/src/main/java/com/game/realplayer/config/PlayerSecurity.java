@@ -1,6 +1,6 @@
 package com.game.realplayer.config;
 
-import com.game.realplayer.player.PlayerService;
+import com.game.realplayer.service.PlayerService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

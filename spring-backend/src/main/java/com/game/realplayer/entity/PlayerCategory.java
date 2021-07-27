@@ -1,4 +1,4 @@
-package com.game.realplayer.player;
+package com.game.realplayer.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

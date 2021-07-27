@@ -1,16 +1,16 @@
-package com.game.realplayer.player.registration;
+package com.game.realplayer.service;
 
-import com.game.realplayer.player.Player;
-import com.game.realplayer.player.PlayerService;
+import com.game.realplayer.entity.Player;
+import com.game.realplayer.entity.PlayerRegistrationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
-public class RegistrationService {
+public class PlayerRegistrationService {
     private final PlayerService playerService;
 
-    public String register(RegistrationRequest request) {
+    public String register(PlayerRegistrationRequest request) {
         return playerService.signUp(
                 new Player(
                         request.getFirstname(),
