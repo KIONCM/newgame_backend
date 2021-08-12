@@ -47,7 +47,10 @@
           "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
           "Microsoft.Identity.Web": "1.1.0",
           "Microsoft.Identity.Web.UI": "1.1.0",
+          "NLog": "4.7.10",
           "NLog.Extensions.AzureBlobStorage": "3.0.0",
+          "NLog.Extensions.Logging": "1.7.3",
+          "NLog.Web.AspNetCore": "4.13.0",
           "Repositories": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -1367,6 +1370,20 @@
         },
         "compile": {
           "lib/net5.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
+      "NLog.Web.AspNetCore/4.13.0": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "1.7.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.13.0.1980"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/NLog.Web.AspNetCore.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -4673,6 +4690,13 @@
       "sha512": "sha512-7RvUvGd9Ad37pNedjPHbCUroscLGuChLBo0OBveGp92vIpEHLZm/in+Ydd+c9qpv1XMQQIx7yZv1F5qyy/AxHQ==",
       "path": "nlog.extensions.logging/1.7.3",
       "hashPath": "nlog.extensions.logging.1.7.3.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/4.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qRGIqhGkH61w8/I2BN5nKGo0BV9yn/EPEUxK18LzHbk26HbHePO0K/a0mb5XRsD+qkuDuB3k68suLk9SV50KAA==",
+      "path": "nlog.web.aspnetcore/4.13.0",
+      "hashPath": "nlog.web.aspnetcore.4.13.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",

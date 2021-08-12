@@ -246,9 +246,21 @@
               "target": "Package",
               "version": "[1.1.0, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.10, )"
+            },
             "NLog.Extensions.AzureBlobStorage": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.13.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

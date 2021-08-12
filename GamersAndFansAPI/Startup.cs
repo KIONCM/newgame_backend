@@ -101,9 +101,9 @@ namespace GamersAndFansAPI
             // Configure  Exception Middleware
             app.ConfigureExceptionHandler(logger);
             app.UseCors(x => x
-         .AllowAnyOrigin()
-         .AllowAnyMethod()
-         .AllowAnyHeader());
+             .AllowAnyOrigin()
+             .AllowAnyMethod()
+             .AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

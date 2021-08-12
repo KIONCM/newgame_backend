@@ -52,6 +52,7 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\Pub
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\NLog.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\NLog.Extensions.AzureBlobStorage.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\NLog.Extensions.Logging.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\NLog.Web.AspNetCore.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

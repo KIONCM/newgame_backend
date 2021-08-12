@@ -85,11 +85,18 @@ namespace GamersAndFansAPI.Controllers
                 return Unauthorized();
             }
 
-            var User = await AuthenticationManager.GetUserProfile(user);            
-            var userProfile = Mapper.Map<User, UserDTO>(User);
+            try
+            {
+                var User = await AuthenticationManager.GetUserProfile(user);
+                var userProfile = Mapper.Map<User, UserDTO>(User);
 
-            return Ok(new { Token = await AuthenticationManager.CreateToken(), userProfile });
-            
+                return Ok(new { Token = await AuthenticationManager.CreateToken(), userProfile });
+            }
+            catch(Exception ex)
+            {
+                Logger.LogError($"Something went wrong {ex}");
+            }
+            return BadRequest();
         }
 
     }
