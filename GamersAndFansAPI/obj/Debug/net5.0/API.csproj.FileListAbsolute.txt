@@ -249,3 +249,12 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Micro
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\NLog.Extensions.AzureBlobStorage.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\API.xml
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Azure.Identity.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Azure.Security.KeyVault.Certificates.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Azure.Security.KeyVault.Secrets.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Identity.Web.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Identity.Web.UI.Views.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Identity.Web.UI.dll

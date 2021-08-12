@@ -35,12 +35,13 @@ namespace Contract
 
         private JwtSecurityToken GenerateTokenOtopns(SigningCredentials signingCredentials, List<Claim> claims)
         {
-            var jwtSettings = Configuration.GetSection("JWTConfiguration");
+            //var jwtSettings = Configuration.GetSection("JWTConfiguration");
             var tokenOptions = new JwtSecurityToken(
-                issuer: jwtSettings.GetSection("ValidIssuer").Value,
-                audience: jwtSettings.GetSection("ValidAudience").Value,
+                //issuer: jwtSettings.GetSection("ValidIssuer").Value,
+                issuer: Environment.GetEnvironmentVariable("VALID_ISSUER"),
+                audience: Environment.GetEnvironmentVariable("VALID_AUDIENCE"),
                 claims: claims,
-                expires: DateTime.Now.AddDays(Convert.ToDouble(jwtSettings.GetSection("expires").Value)),
+                expires: DateTime.Now.AddDays(Convert.ToDouble(Environment.GetEnvironmentVariable("EXPIRES"))),
                 signingCredentials: signingCredentials
                 );
 

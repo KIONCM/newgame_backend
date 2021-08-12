@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:GamersAndFansAPI.Controllers.AccountController.RegisterUsre(Entities.DataTransfareObjects.RegisterUserDTO)">
+            <summary>
+            Registration based on user type 
+            
+            </summary>
+            <remarks> Send the User Details with required fields , and remember the password must be atleast 8 characters including upper and lower case with numbers and special characters</remarks>
+            <param name="registerUserDTO">Like a container mapped to the right model to send spacific properties</param>
+            <returns>IAction Resault </returns>
+            <responce code="201">Ok Created</responce>
+            <responce code="500">Internal Server Error</responce>
+            <responce code="307">Temparary Redirection</responce>
+        </member>
+        <member name="M:GamersAndFansAPI.Controllers.AccountController.Authenticate(Entities.DataTransfareObjects.LoginDTO)">
+            <summary>
+            test samary fot log in 
+            </summary>
+            <param name="user">User Details </param>
+            <returns>Access token valid for a month</returns>
+        </member>
+        <member name="T:GamersAndFansAPI.Extentions.ExceptionMiddlewareExtention">
+            <summary>
+            this class has been implemented from code-maze website Global Error Handling
+            to read more see : https://code-maze.com/global-error-handling-aspnetcore
+            </summary>
+        </member>
+    </members>
+</doc>

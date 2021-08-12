@@ -65,7 +65,8 @@ namespace GamersAndFansAPI.Controllers
                 return BadRequest(ModelState);
             }
             await UserManager.AddToRoleAsync(user, registerUserDTO.Roles);
-            return StatusCode(201);
+            return StatusCode(201,user);
+           
         }
 
         /// <summary>

@@ -52,7 +52,11 @@ namespace GamersAndFansAPI
                     }
                     
                 });
-             
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
+
             });
 
           
@@ -96,7 +100,14 @@ namespace GamersAndFansAPI
 
             // Configure  Exception Middleware
             app.ConfigureExceptionHandler(logger);
+            app.UseCors(x => x
+         .AllowAnyOrigin()
+         .AllowAnyMethod()
+         .AllowAnyHeader());
+
             app.UseHttpsRedirection();
+
+
 
             app.UseRouting();
 
