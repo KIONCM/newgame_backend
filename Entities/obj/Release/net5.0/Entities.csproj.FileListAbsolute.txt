@@ -4,7 +4,6 @@ J:\GitHub\newgame_backend\dotnet-backend\Entities\bin\Release\net5.0\Entities.ru
 J:\GitHub\newgame_backend\dotnet-backend\Entities\bin\Release\net5.0\Entities.dll
 J:\GitHub\newgame_backend\dotnet-backend\Entities\bin\Release\net5.0\ref\Entities.dll
 J:\GitHub\newgame_backend\dotnet-backend\Entities\bin\Release\net5.0\Entities.pdb
-J:\GitHub\newgame_backend\dotnet-backend\Entities\obj\Release\net5.0\Entities.csproj.AssemblyReference.cache
 J:\GitHub\newgame_backend\dotnet-backend\Entities\obj\Release\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
 J:\GitHub\newgame_backend\dotnet-backend\Entities\obj\Release\net5.0\Entities.AssemblyInfoInputs.cache
 J:\GitHub\newgame_backend\dotnet-backend\Entities\obj\Release\net5.0\Entities.AssemblyInfo.cs

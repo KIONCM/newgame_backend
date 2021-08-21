@@ -42,14 +42,13 @@ namespace GamersAndFansAPI.Controllers
         }
         /// <summary>
         /// Registration based on user type 
-        /// 
         /// </summary>
         /// <remarks> Send the User Details with required fields , and remember the password must be atleast 8 characters including upper and lower case with numbers and special characters</remarks>
         /// <param name="registerUserDTO">Like a container mapped to the right model to send spacific properties</param>
         /// <returns>IAction Resault </returns>
-        /// <responce code="201">Ok Created</responce>
-        /// <responce code="500">Internal Server Error</responce>
-        /// <responce code="307">Temparary Redirection</responce>
+        /// <response code="201">Ok Created</response>
+        /// <response code="500">Internal Server Error</response>
+        /// <response code="307">Temparary Redirection</response>
         [HttpPost]
         public async Task<IActionResult>RegisterUsre([FromBody]RegisterUserDTO registerUserDTO)
         {
@@ -65,15 +64,20 @@ namespace GamersAndFansAPI.Controllers
                 return BadRequest(ModelState);
             }
             await UserManager.AddToRoleAsync(user, registerUserDTO.Roles);
-            return StatusCode(201,user);
+            var regiteredUser = Mapper.Map<User,UserDTO>(user);
+            return StatusCode(201, regiteredUser);
            
         }
 
         /// <summary>
-        /// test samary fot log in 
+        /// Sending a request with mail and password to get authentication bearer token
         /// </summary>
         /// <param name="user">User Details </param>
-        /// <returns>Access token valid for a month</returns>
+        /// <returns>Access token valid for a month with a user profile details</returns>
+        /// <response code="200">Ok and return the access token with user profile </response>
+        /// <response code="401">Un autherized if username or password not found </response>
+        /// <response code="404">Not Found if the request URL is incorrect </response>
+        /// <response code="500">Internal Server Error , If they are internal error , in this case the error message will be send to server log </response>
         [HttpPost("Login")]
 
         public async Task<IActionResult> Authenticate([FromBody]LoginDTO user)

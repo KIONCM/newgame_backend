@@ -17,7 +17,7 @@ namespace Contract
     {
         // this class need to be simplify and applay SRP 
         private readonly UserManager<User> UserManager;
-        private User User;
+        private  User User;
         private IConfiguration Configuration;
         public AuthenticationManager(UserManager<User> userManager, IConfiguration configuration)
         {

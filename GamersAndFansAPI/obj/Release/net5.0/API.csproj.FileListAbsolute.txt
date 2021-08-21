@@ -66,7 +66,6 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\API
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\API.AssemblyInfoInputs.cache
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\API.AssemblyInfo.cs
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\API.csproj.CoreCompileInputs.cache
-J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\staticwebassets\API.StaticWebAssets.xml
@@ -101,3 +100,4 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Mic
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\Microsoft.Identity.Web.UI.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\API.xml
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Release\net5.0\NLog.Web.AspNetCore.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\obj\Release\net5.0\API.MvcApplicationPartsAssemblyInfo.cs

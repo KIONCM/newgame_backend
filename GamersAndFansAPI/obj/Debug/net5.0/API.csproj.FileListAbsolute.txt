@@ -258,3 +258,4 @@ J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Micro
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Identity.Web.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Identity.Web.UI.Views.dll
 J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\Microsoft.Identity.Web.UI.dll
+J:\GitHub\newgame_backend\dotnet-backend\GamersAndFansAPI\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
