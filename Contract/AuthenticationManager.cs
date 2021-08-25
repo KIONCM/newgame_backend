@@ -82,7 +82,6 @@ namespace Contract
         public async Task<User> GetUserProfile(LoginDTO loginDTO)
         {
             return await UserManager.FindByNameAsync(loginDTO.Username);
-            
         }
     }
 

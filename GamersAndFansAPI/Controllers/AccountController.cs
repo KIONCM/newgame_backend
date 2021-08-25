@@ -35,11 +35,7 @@ namespace GamersAndFansAPI.Controllers
         }
 
         
-        [HttpGet]
-        public List<IdentityRole> ListRoles()
-        {
-            return RoleManager.Roles.ToList();
-        }
+        
         /// <summary>
         /// Registration based on user type 
         /// </summary>
@@ -65,6 +61,8 @@ namespace GamersAndFansAPI.Controllers
             }
             await UserManager.AddToRoleAsync(user, registerUserDTO.Roles);
             var regiteredUser = Mapper.Map<User,UserDTO>(user);
+            
+
             return StatusCode(201, regiteredUser);
            
         }
